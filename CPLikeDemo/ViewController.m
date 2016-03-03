@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "CPLikeAnimator.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *v1;
 
 @end
 
@@ -22,6 +24,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)like:(id)sender {
+    CPLikeAnimator *animator = [CPLikeAnimator new];
+    [animator animateOnView:self.view atPoint:self.v1.center];
 }
 
 @end

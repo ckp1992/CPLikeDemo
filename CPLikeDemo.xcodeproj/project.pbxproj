@@ -15,6 +15,7 @@
 		7FE3909F1C8878DE0093E8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE3909D1C8878DE0093E8EB /* LaunchScreen.storyboard */; };
 		7FE390AA1C8878DE0093E8EB /* CPLikeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE390A91C8878DE0093E8EB /* CPLikeDemoTests.m */; };
 		7FE390B51C8878DE0093E8EB /* CPLikeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE390B41C8878DE0093E8EB /* CPLikeDemoUITests.m */; };
+		7FE390C81C88797F0093E8EB /* CPLikeAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE390C71C88797F0093E8EB /* CPLikeAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7FE390B01C8878DE0093E8EB /* CPLikeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPLikeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE390B41C8878DE0093E8EB /* CPLikeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPLikeDemoUITests.m; sourceTree = "<group>"; };
 		7FE390B61C8878DE0093E8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE390C61C88797F0093E8EB /* CPLikeAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPLikeAnimator.h; sourceTree = "<group>"; };
+		7FE390C71C88797F0093E8EB /* CPLikeAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPLikeAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		7FE3908E1C8878DE0093E8EB /* CPLikeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7FE390C21C8879350093E8EB /* CPLikeAnimator */,
 				7FE390921C8878DE0093E8EB /* AppDelegate.h */,
 				7FE390931C8878DE0093E8EB /* AppDelegate.m */,
 				7FE390951C8878DE0093E8EB /* ViewController.h */,
@@ -138,6 +142,15 @@
 				7FE390B61C8878DE0093E8EB /* Info.plist */,
 			);
 			path = CPLikeDemoUITests;
+			sourceTree = "<group>";
+		};
+		7FE390C21C8879350093E8EB /* CPLikeAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				7FE390C61C88797F0093E8EB /* CPLikeAnimator.h */,
+				7FE390C71C88797F0093E8EB /* CPLikeAnimator.m */,
+			);
+			path = CPLikeAnimator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				7FE390971C8878DE0093E8EB /* ViewController.m in Sources */,
 				7FE390941C8878DE0093E8EB /* AppDelegate.m in Sources */,
 				7FE390911C8878DE0093E8EB /* main.m in Sources */,
+				7FE390C81C88797F0093E8EB /* CPLikeAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
